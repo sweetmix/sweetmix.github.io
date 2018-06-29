@@ -270,7 +270,7 @@ img {
 }
 
 .height-800 {
-    height: 800px !important;
+    height: 400px !important;
 }
 
 #scrollUp {
@@ -324,7 +324,7 @@ img {
     border-radius: 2px;
     padding: 0 30px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 49px;
 }
@@ -383,7 +383,7 @@ img {
 
 .cart > a {
     color: #2e2e2e;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 1;
     position: relative;
     z-index: 1;
@@ -514,7 +514,7 @@ img {
 }
 
 .cart-item-desc > p {
-    font-size: 14px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -531,7 +531,7 @@ img {
 .header-social-area a {
     display: inline-block;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 25px;
     position: relative;
     z-index: 1;
 }
@@ -544,7 +544,7 @@ img {
     color: #fff;
     display: block;
     line-height: 35px;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -558,9 +558,15 @@ img {
     padding-left: 15px;
     position: relative;
     z-index: 1;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-menu-area .navbar {
@@ -573,7 +579,7 @@ img {
 }
 
 .dropdown-menu .dropdown-item {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -753,7 +759,7 @@ img {
 }
 
 .top-discount-area .single-discount-area:nth-child(2) {
-    background-color: #59c9ef;
+    background-color: #2d99bd;
 }
 
 .top-discount-area .single-discount-area:last-child {
@@ -803,7 +809,7 @@ img {
 .welcome_slide_text h6,
 .single_catagory_area h6 {
     color: #fff;
-    font-size: 14px;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 
@@ -887,7 +893,7 @@ img {
 
 .quickview_pro_des .price > span {
     color: #888;
-    font-size: 14px;
+    font-size: 25px;
     text-decoration: line-through;
 }
 
@@ -1005,7 +1011,7 @@ img {
 
 .quickview_body .share_wf ._icon > a {
     color: #888;
-    font-size: 14px;
+    font-size: 25px;
     margin-right: 5px;
 }
 
@@ -1067,7 +1073,7 @@ img {
 ---------------------------- */
 
 .portfolio-menu > .btn {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 700;
     color: #9f9f9f;
     background-color: transparent;
