@@ -1,0 +1,40 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126   License: none (public domain)*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, input, ruby, section, summary, time, mark, audio, video, select {
+	outline: none;
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	font-size: 100%; 
+	font: inherit; 
+	vertical-align: baseline;
+	}
+ .wpcf7 br {display:none!important;}	
+a {text-decoration:none;}
+/* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} 
+	body {line-height: 1;} 
+	ol, ul {list-style: none;}
+    li {list-style-type:none;}	
+	blockquote, q {quotes: none;} 
+	blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;} 
+	table {border-collapse: collapse; border-spacing: 0;}
+	
+input [type="url"] {} /*-- поле для ввода URL адреса -*/
+input [type="email"] {} /*-- поле для ввода адреса электронной почты --*/
+input [type="color"] {} /*-- поле для выбора цвета --*/
+input [type="date"] {} /*-- поле для выбора даты --*/
+input [type="datetime"] {} /*-- поле для выбора даты и времени (с часовым поясом) --*/
+input [type="datetime-local"] {} /*-- поле для выбора даты и времени (без часового пояса) --*/
+input [type="month"] {} /* - поле для выбора месяца и года --*/
+input [type="number"] {} /*-- поле для ввода числового значения --*/
+input [type="range"] {} /*-- бегунок для выбора числа из диапазона --*/
+input [type="search"] {} /*-- тип поискового поля --*/
+input [type="tel"] {} /*-- поле для ввода номера телефона --*/
+input [type="time"] {} /*-- поле для ввода времени --*/
+input [type="week"] {} /*-- поле для выбора недели и года --*/
+input [type="submit"] {}
+input [type="text"] {}
+input [type="textarea"] {}
+input [type="radio"] {}
+
+
