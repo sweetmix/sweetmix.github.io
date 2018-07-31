@@ -10,7 +10,15 @@
     <meta content="telephone=no" name="format-detection">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Landing Page - Одностраничный магазин на WordPress | WP-Master</title>
+    <title>Хуберт-трейд | Дистрибьютор продуктов питания</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/ie.css" />
+
+    <link rel="stylesheet" href="css/core-style.css">
+
 
     <link rel="stylesheet" href="css/core-style.css">
     <link rel="icon" sizes="16x16" href="http://wp-text.com/wp-content/themes/wptext/images/favicon/favicon.png" type="image/x-icon">
@@ -24,74 +32,7 @@
 
     <link rel="canonical" href="http://wp-text.com/landing-start/" />
     <!-- /all in one seo pack -->
-    <script type="text/javascript">
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "http:\/\/wp-text.com\/wp-includes\/js\/wp-emoji-release.min.js"
-            }
-        };
-        ! function(a, b, c) {
-            function d(a, b) {
-                var c = String.fromCharCode;
-                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
-                var d = k.toDataURL();
-                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
-                var e = k.toDataURL();
-                return d === e
-            }
-
-            function e(a) {
-                var b;
-                if (!l || !l.fillText) return !1;
-                switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
-                    case "flag":
-                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
-                    case "emoji":
-                        return b = d([55357, 56692, 8205, 9792, 65039], [55357, 56692, 8203, 9792, 65039]), !b
-                }
-                return !1
-            }
-
-            function f(a) {
-                var c = b.createElement("script");
-                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
-            }
-            var g, h, i, j, k = b.createElement("canvas"),
-                l = k.getContext && k.getContext("2d");
-            for (j = Array("flag", "emoji"), c.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
-            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
-                c.DOMReady = !0
-            }, c.supports.everything || (h = function() {
-                c.readyCallback()
-            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function() {
-                "complete" === b.readyState && c.readyCallback()
-            })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-
-    </script>
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 .07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-
-    </style>
-
+ 
     <link rel='stylesheet' id='my_reset-css' href='css/reset.css' type='text/css' media='screen' />
     <link rel='stylesheet' id='my_font-css' href='css/font.css' type='text/css' media='screen' />
     <link rel='stylesheet' id='lp_page-css' href='css/lp-page.css' type='text/css' media='screen' />
@@ -153,9 +94,11 @@
                 <span class="number_page">#sweetmix.by</span>
             </div>
             <div class="logo_page">
-                <h1 class="logo_page_wp">WP<span>master</span></h1>
+                <h1 class="logo_page_wp">WP</h1>
             </div>
-            <div class="wrap_button_page"><a href="#contact_form_pop_up" class="fancybox-inline">Задать вопрос</a></div>
+            <div class="wrap_button_page"><a class="fancybox-inline">
+                Задать вопрос: ostashevskaya.nika@mail.ru
+                </a></div>
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
@@ -168,8 +111,8 @@
         <div id="block_page1">
             <article class="block_page1" style="background-image: img/candy_plus.jpg">
                 <div class="naming_page">
-                    <h1 class="naming_page-h1">Дистрибьютор продуктов питания</h1>
-                    <h2 class="naming_page-h2">О нас</h2>
+                    <h2 class="block-title-h2">Дистрибьютор продуктов питания</h2>
+                    <h2 class="block-title-h2">О нас</h2>
                 </div>
                 <div class="clear"></div>
 
@@ -206,33 +149,29 @@
         <div class="clear"></div>
         <!-- block_page3 -->
         <div id="block_page3">
-            <h2 class="block-title-h2">Наши услуги</h2>
+            <h2 class="block-title-h2">НАШИ УСЛУГИ</h2>
             <article class="block_page3">
                 <div class="flex-container">
                     <div class="block_page3-1">
                         <h3 style="text-align: center;"><strong>Логистика</strong></h3>
-                        <a href="http://wp-text.com/wp-content/uploads/2018/01/lp-0.png"><img class="aligncenter size-thumbnail wp-image-4844" src="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png" alt="" width="250" height="250" srcset="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png 250w, http://wp-text.com/wp-content/uploads/2018/01/lp-0-300x300.png 300w, http://wp-text.com/wp-content/uploads/2018/01/lp-0-100x100.png 100w, http://wp-text.com/wp-content/uploads/2018/01/lp-0.png 350w" sizes="(max-width: 250px) 100vw, 250px" /></a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img class="aligncenter size-thumbnail wp-image-4844" src="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png" alt="" width="250" height="250" />
                     </div>
                     <div class="block_page3-1">
                         <h3 style="text-align: center;"><strong>Таможенная очистка</strong></h3>
-                        <a href="http://wp-text.com/wp-content/uploads/2018/01/lp-card.png"><img class="aligncenter size-thumbnail wp-image-4845" src="http://wp-text.com/wp-content/uploads/2018/01/lp-card-250x250.png" alt="" width="250" height="250" srcset="http://wp-text.com/wp-content/uploads/2018/01/lp-card-250x250.png 250w, http://wp-text.com/wp-content/uploads/2018/01/lp-card-300x300.png 300w, http://wp-text.com/wp-content/uploads/2018/01/lp-card-100x100.png 100w, http://wp-text.com/wp-content/uploads/2018/01/lp-card.png 350w" sizes="(max-width: 250px) 100vw, 250px" /></a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img class="aligncenter size-thumbnail wp-image-4844" src="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png" alt="" width="250" height="250" />
                     </div>
                     <div class="block_page3-1">
                         <h3 style="text-align: center;"><strong>Сертификация</strong></h3>
-                        <a href="http://wp-text.com/wp-content/uploads/2018/01/lp-wp.png"><img class="aligncenter size-thumbnail wp-image-4847" src="http://wp-text.com/wp-content/uploads/2018/01/lp-wp-250x250.png" alt="" width="250" height="250" srcset="http://wp-text.com/wp-content/uploads/2018/01/lp-wp-250x250.png 250w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp-300x300.png 300w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp-100x100.png 100w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp.png 350w" sizes="(max-width: 250px) 100vw, 250px" /></a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img class="aligncenter size-thumbnail wp-image-4844" src="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png" alt="" width="250" height="250" />
                     </div>
                     <div class="block_page3-1">
                         <h3 style="text-align: center;"><strong>Хранение</strong></h3>
-                        <a href="http://wp-text.com/wp-content/uploads/2018/01/lp-wp.png"><img class="aligncenter size-thumbnail wp-image-4847" src="http://wp-text.com/wp-content/uploads/2018/01/lp-wp-250x250.png" alt="" width="250" height="250" srcset="http://wp-text.com/wp-content/uploads/2018/01/lp-wp-250x250.png 250w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp-300x300.png 300w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp-100x100.png 100w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp.png 350w" sizes="(max-width: 250px) 100vw, 250px" /></a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img class="aligncenter size-thumbnail wp-image-4844" src="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png" alt="" width="250" height="250" />
+
                     </div>
                     <div class="block_page3-1">
                         <h3 style="text-align: center;"><strong>Доставка</strong></h3>
-                        <a href="http://wp-text.com/wp-content/uploads/2018/01/lp-wp.png"><img class="aligncenter size-thumbnail wp-image-4847" src="http://wp-text.com/wp-content/uploads/2018/01/lp-wp-250x250.png" alt="" width="250" height="250" srcset="http://wp-text.com/wp-content/uploads/2018/01/lp-wp-250x250.png 250w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp-300x300.png 300w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp-100x100.png 100w, http://wp-text.com/wp-content/uploads/2018/01/lp-wp.png 350w" sizes="(max-width: 250px) 100vw, 250px" /></a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img class="aligncenter size-thumbnail wp-image-4844" src="http://wp-text.com/wp-content/uploads/2018/01/lp-0-250x250.png" alt="" width="250" height="250" />
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -242,189 +181,185 @@
         </div>
         <div class="clear"></div>
         <!-- block_page4 -->
-        <div id="block_page4">
-            <article class="block_page4">
-                <h2 class="block-title-h2">Партнеры</h2>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-8">
-                        <div class="karl-testimonials-slides owl-carousel">
+        <div id="screenshot" class="section screenshot" style="padding-bottom: 0px!important; padding-top: 0px!important; padding-left: 50px!important; padding-right: 50px!important;">
+            <div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+                <div class="feature">
+                    <h2 class="block-title-h2">НАШИ ПАРТНЕРЫ</h2>
 
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/candy_plus.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/fini.png" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                            <div class="karl-testimonials-slides owl-carousel">
+
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/candy_plus.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_evroopt.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_korona.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/fini.png" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_green.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_vitalur.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_evroopt.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_almi.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_zlata.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_korona.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_sosedi.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_baniar.jpg" alt="">
-                                    </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_green.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Single Testimonial Area -->
-                            <div class="single-testimonial-area text-center">
-                                <div class="testimonial-info d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <img src="img/bg-img/shop_resttreid.jpg" alt="">
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_vitalur.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
-                                    <div class="testi-data">
-                                        <p></p>
-                                        <span></span>
+                                </div>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_almi.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_zlata.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_sosedi.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_baniar.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Testimonial Area -->
+                                <div class="single-testimonial-area text-center">
+                                    <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <img src="img/bg-img/shop_resttreid.jpg" alt="">
+                                        </div>
+                                        <div class="testi-data">
+                                            <p></p>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="clear"></div>
-            </article>
-            <div class="clear"></div>
+            </div>
         </div>
         <div class="clear"></div>
-        <!-- block_page5 -->
-        <div id="block_page5">
-            <h2 class="block-title-h2">Наши контакты</h2>
-            <article class="block_page5">
-                <div class="footer_page">
-                    <div class="call_page" style="width: 50%!important">
-                        <span class="number_page">+375 (29) 265-15-44</span>
-                        <span class="number_page">+375 (15) 264-53-59</span>
-                        <span class="number_page">#sweetmix.by</span>
-                        <p>
-                            Юридический адрес: 231720, Республика Беларусь, Гродненская область, Гродненский район, д. Пушкари
-                        </p>
-                        Почтовый адрес: 230030, Республика Беларусь, г. Гродно, ул. Калиновского, д.48, пом. 154
-                        <p>
-                        </p>
-                        УНП 591510461, ОКПО 301911214000, ОАО “Белгазпромбанк” OLMPBY2X
-                        <p>
-                        </p>
-                        Гродненская областная дирекция 230029, г. Гродно, ул. Горького, 60
-                        <p>
-                            Р/c № BY46OLMP30126000193660000933
-                        </p>
-                    </div>
-                </div>
-                <div class="footer_page">
-                    <div class="call_page" style="width: 50%!important">
-                        <a href="https://sweetmix.by/"><img align="right" style="text-align: right"  src="https://sweetmix.github.io/img/sweetmix.png" alt="Petrichor - slider"></a>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </article>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-        <!-- block_page6 -->
+        <header id="header_page" style="color: black!important">
+            <div class="header_page">
+                <div class="call_page">
+                    <span class="number_page">+375 (29) 265-15-44</span>
+                    <span class="number_page">+375 (15) 264-53-59</span>
+                    <span class="number_page">#sweetmix.by</span>
+                    <p>
+                        Юридический адрес: 231720, Республика Беларусь, Гродненская область, Гродненский район, д. Пушкари
+                    </p>
+                    Почтовый адрес: 230030, Республика Беларусь, г. Гродно, ул. Калиновского, д.48, пом. 154
+                    <p>
+                    </p>
+                    УНП 591510461, ОКПО 301911214000, ОАО “Белгазпромбанк” OLMPBY2X
+                    <p>
+                    </p>
+                    Гродненская областная дирекция 230029, г. Гродно, ул. Горького, 60
+                    <p>
+                        Р/c № BY46OLMP30126000193660000933
+                    </p>
 
+                </div>
+                <div class="logo_page">
+                    <h1><span></span></h1>
+                </div>
+                <div class="wrap_button_page">
+                    <a href="https://sweetmix.by/"><img align="right" style="text-align: right"  src="https://sweetmix.github.io/img/sweetmix.png" alt="Petrichor - slider"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </header>
         <div class="clear"></div>
     </aside>
     <div class="clear"></div>
@@ -727,92 +662,6 @@
             </div>
         </div>
     </div>
-    <div id="metrica">
-        <div id="custom_html-2" class="widget_text metrica">
-            <div class="textwidget custom-html-widget">
-                <!-- Yandex.Metrika counter -->
-                <script type="text/javascript">
-                    (function(d, w, c) {
-                        (w[c] = w[c] || []).push(function() {
-                            try {
-                                w.yaCounter13365994 = new Ya.Metrika({
-                                    id: 13365994,
-                                    clickmap: true,
-                                    trackLinks: true,
-                                    accurateTrackBounce: true,
-                                    webvisor: true
-                                });
-                            } catch (e) {}
-                        });
-
-                        var n = d.getElementsByTagName("script")[0],
-                            s = d.createElement("script"),
-                            f = function() {
-                                n.parentNode.insertBefore(s, n);
-                            };
-                        s.type = "text/javascript";
-                        s.async = true;
-                        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-                        if (w.opera == "[object Opera]") {
-                            d.addEventListener("DOMContentLoaded", f, false);
-                        } else {
-                            f();
-                        }
-                    })(document, window, "yandex_metrika_callbacks");
-
-                </script>
-                <noscript><div><img src="https://mc.yandex.ru/watch/13365994" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-                <!-- /Yandex.Metrika counter -->
-
-                <!-- Rating@Mail.ru counter -->
-                <script type="text/javascript">
-                    //<![CDATA[
-                    var a = '',
-                        js = 10;
-                    try {
-                        a += ';r=' + escape(document.referrer);
-                    } catch (e) {}
-                    try {
-                        a += ';j=' + navigator.javaEnabled();
-                        js = 11;
-                    } catch (e) {}
-                    try {
-                        s = screen;
-                        a += ';s=' + s.width + '*' + s.height;
-                        a += ';d=' + (s.colorDepth ? s.colorDepth : s.pixelDepth);
-                        js = 12;
-                    } catch (e) {}
-                    try {
-                        if (typeof((new Array).push('t')) === "number") js = 13;
-                    } catch (e) {}
-                    try {
-                        document.write('<a href="http://top.mail.ru/jump?from=2184440">' +
-                            '<img src="http://d4.c5.b1.a2.top.mail.ru/counter?id=2184440;t=218;js=' + js + a + ';rand=' + Math.random() +
-                            '" alt=".maxcriser@gmail.com" style="border:0;" height="31" width="88" \/><\/a>');
-                    } catch (e) {} //]]>
-
-                </script>
-                <!-- //Rating@Mail.ru counter -->
-                <!--LiveInternet counter-->
-                <script type="text/javascript">
-                    <!--
-                    document.write("<a href='http://www.liveinternet.ru/click' " +
-                        "target=_blank><img src='//counter.yadro.ru/hit?t58.5;r" +
-                        escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
-                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
-                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
-                        ";" + Math.random() +
-                        "' alt='' title='LiveInternet' " +
-                        "border='0' width='88' height='31'><\/a>")
-                    //-->
-
-                </script>
-                <!--/LiveInternet-->
-            </div>
-        </div>
-    </div>
-
     <div class="clear"></div>
 </body>
 <div class="clear"></div>
