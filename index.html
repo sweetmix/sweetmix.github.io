@@ -5,6 +5,29 @@
     <!--[if lt IE 9]>
 <script src="http://wp-text.com/wp-content/themes/wptext/js/html5.js"></script>
 <![endif]-->
+
+    <style>
+        * {
+            box-sizing: border-box !important;
+        }
+
+        .column {
+            float: left !important;
+            width: 150px !important;
+            -webkit-column-count: 1 !important;
+            column-count: 1 !important;
+        }
+
+        /* Clearfix (clear floats) */
+
+        .row::after {
+            content: "" !important;
+            clear: both !important;
+            display: table !important;
+        }
+
+    </style>
+
     <meta charset="UTF-8">
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta content="telephone=no" name="format-detection">
@@ -32,7 +55,7 @@
 
     <link rel="canonical" href="http://wp-text.com/landing-start/" />
     <!-- /all in one seo pack -->
- 
+
     <link rel='stylesheet' id='my_reset-css' href='css/reset.css' type='text/css' media='screen' />
     <link rel='stylesheet' id='my_font-css' href='css/font.css' type='text/css' media='screen' />
     <link rel='stylesheet' id='lp_page-css' href='css/lp-page.css' type='text/css' media='screen' />
@@ -181,11 +204,52 @@
         </div>
         <div class="clear"></div>
         <!-- block_page4 -->
+
+        <h2 class="block-title-h2" style="padding-top: 50px!important">НАШИ ПАРТНЕРЫ</h2>
+
+
+        <div class="row" style="max-width: none!important">
+            <div class="column">
+                <img src="img/partners/candy_plus.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/fini.png" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_evroopt.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_korona.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_green.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_vitalur.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_almi.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_zlata.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_sosedi.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_baniar.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/partners/shop_resttreid.jpg" alt="Forest" style="width:100%">
+            </div>
+
+        </div>
+
+
+
         <div id="screenshot" class="section screenshot" style="padding-bottom: 0px!important; padding-top: 0px!important; padding-left: 50px!important; padding-right: 50px!important;">
             <div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
-                <div class="feature">
-                    <h2 class="block-title-h2">НАШИ ПАРТНЕРЫ</h2>
-
+                <div class="feature" style="padding-top: 0px!important">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-8">
                             <div class="karl-testimonials-slides owl-carousel">
@@ -325,9 +389,13 @@
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
         </div>
+
         <div class="clear"></div>
         <header id="header_page" style="color: black!important">
             <div class="header_page">
@@ -354,7 +422,7 @@
                     <h1><span></span></h1>
                 </div>
                 <div class="wrap_button_page">
-                    <a href="https://sweetmix.by/" style="border: none!important; display: inline!important;"><img align="right" style="text-align: right"  src="https://sweetmix.github.io/img/sweetmix.png" alt="Petrichor - slider"></a>
+                    <a href="https://sweetmix.by/" style="border: none!important; display: inline!important;"><img align="right" style="text-align: right"  src="img/sweetmix.png" alt="Petrichor - slider"></a>
                 </div>
                 <div class="clear"></div>
             </div>
