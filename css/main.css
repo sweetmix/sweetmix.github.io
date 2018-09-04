@@ -1837,7 +1837,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  background: #fff;
+  border-radius: 25px 25px 0px 0px;
+    background: #fff;
 }
 
 .header-top {
