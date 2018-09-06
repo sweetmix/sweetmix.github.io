@@ -56,6 +56,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: 'San Francisco Text Light';
+    src: url('SFUIText-Light.eot');
+    src: url('SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+    url('SFUIText-Light.woff') format('woff'),
+    url('SFUIText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+>>>>>>> d1fa56ad45eebb44d10ff774ca10e51508be3472
 ol,
 ul {
     margin: 0;
@@ -129,7 +142,11 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+=======
+    font-family: "Poppins", sans-serif;
+>>>>>>> d1fa56ad45eebb44d10ff774ca10e51508be3472
     color: #222222;
     line-height: 1.5em;
     margin-bottom: 0;
@@ -145,7 +162,11 @@ h6 {
 .h6 {
     margin-bottom: 0;
     margin-top: 0;
+<<<<<<< HEAD
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+=======
+    font-family: "Poppins", sans-serif;
+>>>>>>> d1fa56ad45eebb44d10ff774ca10e51508be3472
     font-weight: 600;
     color: #222222;
 }
@@ -733,6 +754,14 @@ th {
     right: 0;
     top: 0;
     bottom: 0;
+<<<<<<< HEAD
+=======
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+>>>>>>> d1fa56ad45eebb44d10ff774ca10e51508be3472
 }
 
 .container.fullwidth {
@@ -2159,7 +2188,11 @@ body:after,
     position: absolute;
     top: 0;
     left: 0;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 0%;
+>>>>>>> d1fa56ad45eebb44d10ff774ca10e51508be3472
     height: 100%;
     background: url(../img/s.jpg) no-repeat center center/cover;
     z-index: 1;
