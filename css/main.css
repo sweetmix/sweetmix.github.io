@@ -2060,8 +2060,13 @@ body:after {
     }
 }
 
+body:after {
+    background-image: url(https://www.texturepalace.com/gallery/book/vintage-book-2-series/vintage-book-texture-4.jpg);
+    background-image: url(https://www.texturepalace.com/gallery/book/vintage-book-2-series/vintage-book-texture-4.jpg);
+    background-image: url(https://www.texturepalace.com/gallery/book/vintage-book-2-series/vintage-book-texture-4.jpg);
+}
+
 .p1-gradient-bg,
-body:after,
 .primary-btn:after,
 .banner-area,
 .active-banner-slider .item:before,
